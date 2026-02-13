@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JB Hotel Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>WELCOME TO JB HOTEL</h1>
+
+    <form id="reservationForm">
+
+        <input type="text" id="name" placeholder="Customer Name" required>
+        <input type="text" id="contact" placeholder="Contact Number" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="number" id="age" placeholder="Customer Age" required>
+
+        <label>Check-in Date:</label>
+        <input type="date" id="checkIn" required>
+
+        <label>Check-out Date:</label>
+        <input type="date" id="checkOut" required>
+
+        <input type="number" id="guests" placeholder="Number of Guests" required>
+        <input type="number" id="rooms" placeholder="Number of Rooms" required>
+
+        <select id="roomType">
+            <option value="Standard">Standard (₹2000)</option>
+            <option value="Deluxe">Deluxe (₹4000)</option>
+        </select>
+
+        <select id="payment">
+            <option value="Cash">Cash</option>
+            <option value="Card">Card</option>
+            <option value="UPI">UPI</option>
+        </select>
+
+        <button type="submit">Book Now</button>
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
