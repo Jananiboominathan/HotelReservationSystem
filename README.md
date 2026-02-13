@@ -23,6 +23,9 @@ java HotelReservationSystem
 
 ### Web Version
 Open web/index.html in browser
+## 📷 Project Screenshot
+
+![Website Screenshot](screenshot.png)
 
 ## 👩‍💻 Developed By
 Janani
